@@ -1,0 +1,125 @@
+:root {
+    --main-color: #3c097d;
+    --yellow: #6812d9;
+    --red: #0e051b;
+    --font: Faculty Glyphic;
+    --radius: 1px;
+}
+
+*,html {
+    font-family: var(--font);
+    scroll-behavior: smooth;
+}
+*::selection {
+    background-color: var(--yellow);
+    color: #fff;
+}
+
+body {
+    background-color: #faf9f9;
+    font-family: var(--font);
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+.btn {
+    background-color: var(--main-color);
+    transition:  all 0.2s ease-in 0s;
+}
+.btn:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+/* Nav */
+#nav {
+    width: 950px;
+    background: rgba(255, 255, 255, 0.062);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+#nav li a {
+    transition: all 0.2s ease-in 0s;
+}
+#nav li a:hover {
+    color: #000;
+}
+
+/* Banner */
+#banner {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.599), rgba(0, 0, 0, 0.902)),
+    url('../img/img\ \(1\).jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+}
+
+/* Features */
+#features_img {
+    box-shadow: 12px 20px 40px 20px rgba(78, 116, 255, 0.374);
+}
+ #feature #card {
+    /* background-image: linear-gradient(to top, rgba(0, 0, 0, 0.946) 55%, rgba(0, 0, 0, 0.033)),
+    url('../img/piste.jpg'); */
+    background-size: cover;
+    border-radius: 22px;
+    height: 420px;
+    transition: all 0.2s ease-in 0s;
+}
+#feature #card:hover {
+    opacity: 0.9;
+    transform: translateY(-10px);
+}
+
+#feature #card:nth-child(1) {
+    /* background-image: linear-gradient(to top, rgba(0, 0, 0, 0.946) 55%, rgba(0, 0, 0, 0.033)),
+    url('../img/img\ \(8\).jpeg'); */
+    background-color: #000;
+}
+#feature #card:nth-child(2) {
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.824)55%, rgba(0, 0, 0, 0.033)),
+    url('../img/img\ \(7\).jpg');
+}
+#feature #card:nth-child(3) {
+    /* background-image: linear-gradient(to top, rgba(0, 0, 0, 0.946) 55%, rgba(0, 0, 0, 0.033)),
+    url('../img/img\ \(3\).png'); */
+    background-color: var(--main-color);
+}
+
+/* Clients */
+#clients_options #content {
+    background-image: linear-gradient(#01040f, #010716);
+}
+#clients_options h1 {
+    font-size: 60px;
+}
+
+/* Clients */
+#clients_options #content {
+    background-image: linear-gradient(#01040f, #010716);
+}
+#clients_options h1 {
+    font-size: 60px;
+}
+
+/* Testimonials */
+.testimonials #card {
+    border-style: solid;
+    border: 1px solid #000;
+    width: 380px;
+    margin-bottom: 35px;
+}
+
+.testimonials #card:hover {
+    border-style: double;
+    border: 1px solid #000;
+    box-shadow: 20px 10px 15px 10px rgba(0, 0, 0, 0.105);
+}
+
+/* Footer */
+#download {
+    background-color: var(--main-color);
+}
+footer {
+    background-color: var(--red);   
+}
