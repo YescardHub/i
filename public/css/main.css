@@ -78,7 +78,7 @@ body {
 }
 #feature #card:nth-child(2) {
     background-image: linear-gradient(to top, rgba(0, 0, 0, 0.824)55%, rgba(0, 0, 0, 0.033)),
-    url('../img/img\ \(7\).jpg');
+    url('../img/IMG-20251115-WA0007.jpg');
 }
 #feature #card:nth-child(3) {
     /* background-image: linear-gradient(to top, rgba(0, 0, 0, 0.946) 55%, rgba(0, 0, 0, 0.033)),
@@ -122,4 +122,5 @@ body {
 }
 footer {
     background-color: var(--red);   
+
 }
